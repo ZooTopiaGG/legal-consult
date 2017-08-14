@@ -1,0 +1,96 @@
+html,body,title,meta,div,p,ul,ol,h1,h2,h3,h4,h5,h6,header,footer,section,aside,article,a,span,em,i,
+input,button,blockquote,address,audio,video,nav,canvas,select,small,source,dd,dl,dt,table,tbody,hgroup,
+embed,frame,img,link,label,option,td,th,tr,tt,style{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none !important;
+}
+a,input,button{
+	
+}
+*{
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.lt{
+	float:left;
+}
+.margin{
+	margin: 0 auto;
+}
+.rt{
+	float: right;
+}
+.clear:after{
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	content: ".";
+}
+.clear{
+	zoom: 1;
+}
+.align-center{
+	text-align: center;
+}
+#app {
+    font-family: 'PingFang SC','Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+	font-size: 0.28rem;
+	line-height: 1;
+}
+
+.ellipsis-1{
+	display: -webkit-box;
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+	text-align:justify
+	
+}
+.ellipsis-2{
+	display: -webkit-box;
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	text-align:justify
+	
+}
+.ellipsis-5{
+	display: -webkit-box;
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+	text-align:justify
+	
+}
